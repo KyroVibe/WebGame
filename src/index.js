@@ -5,16 +5,18 @@
 
 import React from "react";
 import ReactDOM from "react-dom/client";
+import Block from "./components/Block.jsx"
 import "./style/test.scss";
 // import "./styles.scss";
 
-// const App = () => {
-//   return <BoardView />;
-// };
+const App = () => {
+  return <Block />;
+};
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <>
     <h1>2048</h1>
+    <App />
   </>
 );
